@@ -1,0 +1,17 @@
+{
+  "name": "firefox-reader-mode-on-rest",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "start": "func start",
+    "test": "echo \"No tests yet...\""
+  },
+  "dependencies": {
+    "@azure/functions": "^4.0.0",
+    "@mozilla/readability": "^0.5.0",
+    "jsdom": "^25.0.1",
+    "node-fetch": "^3.3.2"
+  },
+  "main": "src/{index.js,functions/*.js}"
+}
